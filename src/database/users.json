@@ -1,0 +1,32 @@
+[
+    {
+        "user_id": 1,
+        "username": "Ahror",
+        "contact": "998333732328"
+    },
+    {
+        "user_id": 2,
+        "username": "Anvar",
+        "contact": "998993732328"
+    },
+    {
+        "user_id": 3,
+        "username": "Umar",
+        "contact": "998909009889"
+    },
+    {
+        "username": "shaxboz",
+        "contact": "998914195596",
+        "user_id": 4
+    },
+    {
+        "username": "donishmand",
+        "contact": "998908906098",
+        "user_id": 5
+    },
+    {
+        "username": "Muhammadrizo",
+        "contact": "998991932367",
+        "user_id": 7
+    }
+]

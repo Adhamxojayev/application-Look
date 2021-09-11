@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Lobster&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/main.css">
+	<title>LOOK ORDER</title>
+</head>
+<body>
+	<div class="container">
+		<div class="navbar">
+			<div class="navbar-top">
+				<a href="#">
+					<img src="./img/logo.svg" alt="logo" height="50">
+				</a>
+			</div>
+			<div class="navbar-main">
+				<ul class="customers-list"></ul>
+			</div>
+			<div class="navbar-footer">
+				<form id="userAdd">
+					<input id="usernameInput" type="text" placeholder="username..." required>
+					<input id="telephoneInput" type="tel" placeholder="telephone..." required>
+					<button type="submit">
+						<img src="https://img.icons8.com/pastel-glyph/64/000000/add-user-male--v2.png" alt="plus-icon">
+					</button>
+				</form>
+			</div>
+		</div>
+		<div class="main">
+			<div class="main-headers">
+				<div class="cutomer-id-wrapper">
+					<span>client id:</span>
+					<span id="clientId"></span>
+				</div>
+				<h1 id="userHeader" class="customer-name">select user...</h1>
+			</div>
+			<div class="main-orders">
+				<ul class="orders-list"></ul>
+			</div>
+			<div class="main-footer">
+				<form id="foodsForm">
+					<select id="foodsSelect"></select>
+					<input id="foodsCount" type="number" placeholder="count" required>
+					<button type="submit">
+						<img src="https://img.icons8.com/plasticine/100/000000/plus-math.png" alt="plus-button" height="35">
+					</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="/js/query.js"></script>
+	<script src="/js/util.js"></script>
+	<script src="/js/main.js"></script>
+</body>
+</html>
